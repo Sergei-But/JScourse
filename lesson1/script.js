@@ -40,7 +40,7 @@ complex[0] = "My name is Sergei";
 complex[1] = 7;
 complex[2] = null;
 complex[3] = {info};
-console.log(complex[3]);
+console.log(complex[2]);
 
 //task7
 var complexObj = {};
