@@ -40,6 +40,7 @@ complex[0] = "My name is Sergei";
 complex[1] = 7;
 complex[2] = null;
 complex[3] = {info};
+// здесь скобки {} будут лишними получиться объект в объекте нам нужно чтобы complex[3] = info а не {info}
 console.log(complex[2]);
 
 //task7
