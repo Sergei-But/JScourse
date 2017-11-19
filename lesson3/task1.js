@@ -8,6 +8,8 @@ else {
     console.log('Incorrect');
 }
 
+// ?? Проверьте работу скрипта при a, равном 1, 0, -3.
+
 //task2
 var a = prompt("Enter a value");
 if (a == "test") {
@@ -16,6 +18,7 @@ if (a == "test") {
 else {
     console.log("Incorrect");
 }
+// ??'. Проверьте работу скрипта при a, равном 'test', 'тест', 3.
 
 //task3
 var test = prompt("Enter a value");
@@ -25,6 +28,8 @@ if (test == "true") {
 else {
     console.log("Incorrect");
 }
+// Проверьте работу скрипта при test, равном true, false. Напишите два варианта скрипта - с короткой записью и с длинной.
+
 //or
 var test = prompt("Enter a value");
 test == "true" ? console.log("Correct") : console.log("Incorrect");
@@ -40,6 +45,7 @@ else {
     result = result*10
 }
 console.log(result);
+// ?? Проверьте работу скрипта при a и b, равных 2 и 5, 3 и 1.
 
 //task5
 var a = 2;
@@ -50,6 +56,8 @@ else {
     a = a + 7;
 }
 console.log(a);
+// ?? Проверьте работу скрипта при a, равном 5, 0, -3, 2.
+
 
 //task6
 var a = 3;
@@ -61,6 +69,7 @@ if (a >= 1 && b >= 3) {
 else {
     console.log("Incorrect");
 }
+// ?? Проверьте работу скрипта при a и b, равном 1 и 3, 0 и 6, 3 и 5.
 
 //task7
 var a = 2;
